@@ -9,6 +9,9 @@ class Articulo(models.Model):
     modelo = models.PositiveIntegerField("Modelo", null=True, blank=True)
     kilometraje = models.DecimalField("Kilometraje", max_digits=15, decimal_places=2, null=True, blank=True)
     lugar_de_venta = models.TextField("Lugar de Venta", null=True, blank=True)
+    url = models.TextField("URL", null=True, blank=True)
+    color = models.CharField("Color", max_length=50, null=True, blank=True)
+    tipo_combustible = models.CharField("Tipo de Combustible", max_length=100, null=True, blank=True)
 
     class Meta:
         db_table = 'articulos'

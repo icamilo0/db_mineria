@@ -76,11 +76,11 @@ WSGI_APPLICATION = 'mineria.wsgi.application'
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "bu5q4dbsiwfvlvgklcrj",
-        "USER": "um6lhsdbpwp4pmwm1bn7",
-        "PASSWORD": "DQE78tfPqvqFCz0W5JitgCYWXKvMkz",
-        "HOST": "bu5q4dbsiwfvlvgklcrj-postgresql.services.clever-cloud.com",
-        "PORT": "50013",
+        "NAME": "db_mineria",
+        "USER": "extras",
+        "PASSWORD": "mineria_3er_corte",
+        "HOST": "190.242.60.212",
+        "PORT": "5436",
     }
 }
 
