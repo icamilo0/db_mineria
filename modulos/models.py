@@ -11,7 +11,6 @@ class Articulo(models.Model):
     kilometraje = models.DecimalField("Kilometraje", max_digits=15, decimal_places=2, null=True, blank=True)
     lugar_de_venta = models.TextField("Lugar de Venta", null=True, blank=True)
     url = models.TextField("URL", null=True, blank=True)
-    marca = models.CharField("Color", max_length=255, null=True, blank=True)
 
     class Meta:
         db_table = 'articulos'
